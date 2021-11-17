@@ -1,11 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { CoursePool } from "./components/CoursePool";
+import { Table } from "./components/Table";
 
 function App(): JSX.Element {
     return (
         <div className="App">
-        Scheduler
+            <CoursePool></CoursePool>
+            <Table></Table>
         </div>
     );
 }

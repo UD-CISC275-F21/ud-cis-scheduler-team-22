@@ -1,0 +1,102 @@
+[
+    {
+      "Course#": "CISC108",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "EGGG101",
+      "Credits#": 2,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "MATH241",
+      "Credits#": 4,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "ENGL110",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "CISC181",
+      "Credits#": 3,
+      "PREREQ": "CISC108"
+    },
+    {
+      "Course#": "CISC210",
+      "Credits#": 3,
+      "PREREQ": "CISC108"
+    },
+    {
+      "Course#": "MATH242",
+      "Credits#": 4,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "CISC220",
+      "Credits#": 3,
+      "PREREQ": "CISC181"
+    },
+    {
+      "Course#": "CISC260",
+      "Credits#": 3,
+      "PREREQ": "CISC181"
+    },
+    {
+      "Course#": "MATH210",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "CISC355",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "CISC275",
+      "Credits#": 3,
+      "PREREQ": "CISC220"
+    },
+    {
+      "Course#": "MATH205/350",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "BreadthRQ1",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "BreadthRQ2",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "BreadthRQ3",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "BreadthRQ4",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "BreadthRQ5",
+      "Credits#": 3,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "ScienceRQ1",
+      "Credits#": 4,
+      "PREREQ": "n"
+    },
+    {
+      "Course#": "ScienceRQ2",
+      "Credits#": 4,
+      "PREREQ": "n"
+    }
+  ]
