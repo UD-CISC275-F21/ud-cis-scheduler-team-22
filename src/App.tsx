@@ -1,19 +1,27 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { useState } from "react";
 import "./App.css";
+import { CoursePool } from "./components/CoursePool";
+import { Col, Container, Row } from "react-bootstrap";
+import { Plan } from "./components/Table";
+import {course} from "./interfaces/course";
 
 function App(): JSX.Element {
+    const[poolShowed,show] = useState<boolean>(false);
+    
     return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                UD CIS Scheduler
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-            </header>
-        </div>
+        <Container className="App">
+            <Row>
+                <Col>
+                    <CoursePool show={show} poolShowed={poolShowed}></CoursePool>
+                    
+                </Col>
+                <Col>
+                    <Plan></Plan>    
+                </Col>
+            </Row>
+        </Container>
     );
 }
 
 export default App;
+
