@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { CoursePool } from "./components/CoursePool";
-import { Table } from "./components/Table";
+import { Col, Container, Row } from "react-bootstrap";
+import { Plan } from "./components/Table";
+import {course} from "./interfaces/course";
 
 function App(): JSX.Element {
+    const[poolShowed,show] = useState<boolean>(false);
+    
     return (
-        <div className="App">
-            <CoursePool></CoursePool>
-            <Table></Table>
-        </div>
+        <Container className="App">
+            <Row>
+                <Col>
+                    <CoursePool show={show} poolShowed={poolShowed}></CoursePool>
+                    
+                </Col>
+                <Col>
+                    <Plan></Plan>    
+                </Col>
+            </Row>
+        </Container>
     );
 }
 
 export default App;
+
